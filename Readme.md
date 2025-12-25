@@ -1,38 +1,83 @@
-Mall Customer Segmentation
-Exploratory Data Analysis & Statistical Modeling Plan
+# Mall Customer Segmentation  
+### Exploratory Data Analysis, SQL Transformation & Inferential Statistics
 
-This project includes a comprehensive exploratory data analysis (EDA) and a full statistical analysis plan for the Mall Customer Segmentation dataset.
-It covers:
+## Project Overview
 
-✔ Descriptive statistics
-✔ Outlier analysis
-✔ Normality and homogeneity tests
-✔ Categorical transformation using regression + AIC/BIC
-✔ MANOVA, ANOVA, ANCOVA
-✔ Multiple Regression
-✔ Causal inference with SEM
-✔ SQL + R + Power BI workflow
+This project focuses on the **analysis and segmentation of mall customers** using demographic and behavioral variables.  
+The primary goal is to explore customer characteristics, identify meaningful segments, and evaluate group differences in spending behavior through **exploratory data analysis (EDA)** and **inferential statistical methods**.
 
-📂 Project Structure
-data/ - raw and cleaned datasets  
-notebooks/ - EDA and hypothesis testing notebooks  
-scripts/ - SQL and R scripts  
-reports/ - final PDF report and figures  
+The workflow progresses from data preparation and visualization to hypothesis testing, ensuring both interpretability and statistical validity.
 
-📊 Tools Used
+---
 
-R (ggplot2, dplyr, stats, car, lme4)
+## Dataset
 
-SQL (JOIN, GROUP BY, CASE WHEN, NTILE)
+The dataset contains customer-level information, including:
 
-Power BI (Dashboard creation)
+- Age  
+- Annual Income  
+- Spending Score  
 
-📑 Report
+These variables are used to analyze customer behavior and construct meaningful customer segments.
 
-The full statistical analysis plan is available in:
+---
 
-📄 reports/Mall-Customer-Segmentation-EDA-and-Statistical-Analysis-Plan.pdf
+## Analysis Workflow
 
-🧠 Purpose
+The analysis is conducted in the following stages:
 
-This project was prepared to demonstrate analytical thinking, statistical modeling, and reporting skills for data analyst and data science roles.
+### 1. Data Preparation
+- Data cleaning and variable inspection  
+- Transformation of continuous variables into categorical groups using SQL (`CASE WHEN`)  
+- Creation of income and age segments for group-based analysis  
+
+### 2. Exploratory Data Analysis (EDA)
+- Descriptive statistics  
+- Distribution analysis  
+- Visual exploration of spending behavior across demographic variables  
+
+### 3. Segmentation
+- Customers are segmented into **five groups** based on income and spending behavior  
+- Segment characteristics are interpreted in terms of consumer behavior patterns  
+
+### 4. Inferential Statistics
+- Hypothesis formulation and testing  
+- ANOVA and related statistical tests to compare group means  
+- Evaluation of statistical assumptions and effect sizes  
+- Interpretation of results with respect to customer segmentation  
+
+---
+
+## Tools & Technologies
+
+- **R**  
+  - tidyverse (dplyr, ggplot2)  
+  - stats  
+  - car  
+- **SQL**  
+  - Data transformation  
+  - Conditional logic using `CASE WHEN`  
+- **Markdown / Word**  
+  - Reporting and documentation  
+
+---
+
+## Key Objectives
+
+- Understand how **age and income groups differ in spending behavior**
+- Assess whether categorical representations lead to meaningful group comparisons
+- Apply inferential statistics to support data-driven conclusions
+- Document the analytical reasoning and statistical results clearly
+
+---
+
+## Notes
+
+This project emphasizes **methodological clarity** over model complexity.  
+Categorical transformations are used intentionally to enable group-based inference rather than predictive optimization.
+
+---
+
+## Author
+
+**Yusuf Onur Şimşek**
