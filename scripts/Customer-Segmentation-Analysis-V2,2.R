@@ -33,6 +33,7 @@ print(colnames(df_normal))
 ## We will be start to make correlation analysis. Therefore we will be call our numeric datas and 
 ## we will be ensure a correlation matrix.
 
+
 # Correlation Analysis
 
 Numeric_Data <- df_normal %>% select(Age, Annual_Income, Spending_Score)
@@ -48,6 +49,8 @@ corrplot(cor_matrix,
 ## So when age increases Spending_Score looses. When SPending_Score increases Age loosses.
 ## But that is not enought and powerfull a correlation but middle a correlation. 
 ## Also, we can't see any correlation for Afe and Annual_Income and Annual_Income and Spending_Score.
+
+    ## NOTE: H6 rejected. Because annual income and spending score has not a correlation.
 
 ## Before start to hypothesess tests we will make test of normality and homogenity for using
 ## parametric or non-parametric tests.
@@ -162,6 +165,6 @@ print(ci_var_age)
     ## campaing for that.
 
 ###################################################################################################################
-####      RESULT OF F??RT HYPOTHES:
+####      RESULT OF F??RST HYPOTHES:
 ####      Our customers middle age and they aren't making musch nor less spending. Also, they are middle class.
 ####      Therefore we should focus on the group. Because our customers in here.
