@@ -147,14 +147,14 @@ ci_var_spending  <- calc_var_ci(df_normal$Spending_Score, 0.95)
 print(ci_mean_spending)
 print(ci_var_spending)
     ## Spending score of our customers 46,58856-53,80538 between and this mean is our customers mean
-    ## is not VIP or low type. Our customers are standart.
+    ## is not VIP or low type. Our customers are standard.
 
 ## 1.7.2 Annual Income Mean and Variance
 ci_mean_income <- t.test(df_normal$Annual_Income, conf.level = 0.95)$conf.int
 ci_var_income  <- calc_var_ci(df_normal$Annual_Income, 0.95)
 print(ci_mean_income)
 print(ci_var_income)
-    ## Our customers have standart incomes like their spending scroes.
+    ## Our customers have standard incomes like their spending scroes.
 
 ## 1.7.3 Age Mean and Variance
 ci_mean_age <- t.test(df_normal$Age, conf.level = 0.95)$conf.int
