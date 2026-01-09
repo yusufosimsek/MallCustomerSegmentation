@@ -95,3 +95,23 @@ This step evaluates whether descriptive segmentation results hold under statisti
 
 This project demonstrates the importance of validating segmentation strategies using inferential statistics.  
 It highlights how commonly accepted assumptions—such as income-driven spending—may fail when subjected to rigorous statistical testing, reinforcing the need for data-driven decision-making in customer analytics.
+
+
+---
+
+## 📊 Interactive Web Dashboard
+
+To present the analysis results in a more accessible and interactive format, a **React-based Web Dashboard** has been developed. This dashboard visually demonstrates the shift from descriptive segmentation (V1) to inferential statistical analysis (V2).
+
+### 🚀 Features
+- **Methodology Comparison:** Side-by-side comparison of V1 (Distribution-based) and V2 (Inferential) approaches.
+- **Multi-Language Support:** Full support for **English (EN)** and **Turkish (TR)** with a toggle switch.
+- **Visual Storytelling:** Interactive cards and charts explaining the "VIP Misconception" vs. "Age-Driven Reality".
+- **Strategic Roadmap:** Clear visualization of the proposed "Youth-First" and "Gift-Oriented" strategies.
+
+### 🛠️ How to Run
+To view the dashboard locally:
+
+1. Navigate to the project folder:
+   ```bash
+   cd customer-segmentation-report
